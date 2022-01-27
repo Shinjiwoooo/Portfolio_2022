@@ -94,6 +94,29 @@ p {
   margin: 4px 0;
 }
 
+/* target */
+.target {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.target1 {
+  background-image: url('https://shinjiwoooo.github.io/img/kakao.png');
+
+}
+.target2 {
+  background-image: url('https://shinjiwoooo.github.io/img/crome.png');
+}
+
+.target3{
+  background-image: url('https://shinjiwoooo.github.io/img/Paint.png');
+}
+
+.target4{
+  background-image: url('https://shinjiwoooo.github.io/img/ring.png');
+}
+
 /* Navbar */
 #navbar {
   position: fixed;
@@ -109,7 +132,7 @@ p {
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-pink);
+  background-color:#DFF5B4;
   padding: 8px;
 }
 
@@ -126,7 +149,7 @@ p {
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  color: var(--color-white);
+  color:black;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: var(--size-border-radius);
@@ -134,7 +157,7 @@ p {
 
 .navbar__menu__item:hover {
   border-color: var(--color-white);
-  background-color: var(--color-dark-pink);
+  background-color:#FBDBB5;
 }
 
 .navbar__toggle-btn {
@@ -148,7 +171,7 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/home-background.png") center/cover no-repeat;
+  background: url("imgs/background.jpg") center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -163,7 +186,8 @@ p {
 
 .home__title,
 .home__description {
-  color: var(--color-white);
+  color:black;
+  text-shadow: 2px 2px 2px #e2caca;
 }
 
 .home__contact {
@@ -184,13 +208,14 @@ p {
   padding: 50px;
   text-align: center;
   margin: auto;
+
 }
 
 .section__container {
   max-width: 1200px;
   margin: auto;
+  
 }
-
 
 
 
@@ -308,13 +333,13 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: #FBDBB5;
 }
 
 .contact__title,
 .contact__email,
 .contact__rights {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .contact__title {
@@ -374,7 +399,7 @@ p {
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color:#DFF5B4;
     padding: 25px;
   }
 
