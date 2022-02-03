@@ -115,6 +115,10 @@ p {
   background-image: url('https://shinjiwoooo.github.io/img/ring.png');
 }
 
+.target5{
+  background-image: url('https://shinjiwoooo.github.io/img/wedding.png');
+}
+
 /* Navbar */
 #navbar {
   position: fixed;
